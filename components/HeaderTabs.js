@@ -19,7 +19,7 @@ const HeaderButton = ({ text, btnColor, textColor, setActiveTab, activeTab }) =>
         backgroundColor: activeTab === text ? 'black' : 'white',
         paddingVertical: 7,
         paddingHorizontal: 17,
-        borderRadius: 30,
+        borderRadius: 20,
       }}
       onPress={() => setActiveTab(text)}
     >

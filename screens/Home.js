@@ -1,11 +1,15 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import HeaderTabs from '../components/HeaderTabs'
+import React from "react";
+import { View, SafeAreaView, Text } from "react-native";
+import HeaderTabs from "../components/HeaderTabs";
+import SearchBar from "../components/SearchBar";
 
 export default function Home() {
   return (
-    <View>
-      <HeaderTabs />
-    </View>
-  )
+    <SafeAreaView style={{ backgroundColor: "grey", flex: 1 }}>
+      <View style={{ backgroundColor: "white", padding: 15 }}>
+        <HeaderTabs />
+        <SearchBar />
+      </View>
+    </SafeAreaView>
+  );
 }

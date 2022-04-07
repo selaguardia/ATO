@@ -1,10 +1,10 @@
-import { SafeAreaView, Text } from "react-native";
+import { View } from "react-native";
 import Home from "./screens/Home";
 
 export default function App() {
   return (
-    <SafeAreaView>
+    <View style={{ flex:1}}>
       <Home />
-    </SafeAreaView>
+    </View>
   );
 }
